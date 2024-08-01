@@ -5,7 +5,8 @@ import org.junit.Test;
 
 public class Cat extends Animals {
     private String food;
-
+    private static String test;
+    private int i;
     public Cat() {
     }
 
@@ -29,6 +30,11 @@ public class Cat extends Animals {
         this.food = food;
     }
 
+
+    void showFood(){
+        System.out.println(this.name+"吃的是"+this.food);
+    }
+
     @Override
     public String toString() {
         return "Cat{" +
@@ -45,8 +51,10 @@ public class Cat extends Animals {
         cat.setSex("male");
         cat.setColor("white");
         cat.setFood("小鱼干");
-        System.out.println(cat.name+"正在吃"+cat.getFood());
+        cat.showColor();
+        cat.showFood();
         Assert.assertEquals("Tom",cat.getName());
-
+        System.out.println(Cat.test);
+        System.out.println(cat.food);
     }
 }

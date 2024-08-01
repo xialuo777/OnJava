@@ -1,6 +1,13 @@
 package com.onJava.Extends;
 
 public class Animals {
+
+
+    public String name;
+    private int age;
+    private String sex;
+    private String color;
+
     public Animals(String name, int age, String sex, String color) {
         this.name = name;
         this.age = age;
@@ -9,12 +16,6 @@ public class Animals {
     }
     public Animals() {
     }
-
-    public String name;
-    private int age;
-    private String sex;
-    private String color;
-
     public String getName() {
         return name;
     }
@@ -43,7 +44,7 @@ public class Animals {
         return color;
     }
 
-    public void setColor(String color) {
+    void setColor(String color) {
         this.color = color;
     }
 
@@ -61,7 +62,7 @@ public class Animals {
         System.out.println(this.name+"在吃东西");
     }
 
-    public void showColor() {
+    void showColor() {
         System.out.println(this.name+"的颜色是"+this.color);
     }
 
