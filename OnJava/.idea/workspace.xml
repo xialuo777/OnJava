@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="247c358b-0582-4722-a071-727ae0232fd9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/onJava/Interfae/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/onJava/Interfae/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OnJava/com/onJava/Extends/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OnJava/com/onJava/Extends/Cat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OnJava/com/onJava/Extends/test.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -36,6 +42,9 @@
     <option name="jreName" value="corretto-1.8 (3)" />
   </component>
   <component name="ProjectId" id="2k0nOkXkHTgJnLnVaCLm9cn2T7s" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -47,16 +56,17 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "File.Encoding",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.Cat.test1">
+  <component name="RunManager" selected="JUnit.Utils.test">
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.onJava.Extends.test" />
       <module name="OnJava" />
@@ -66,6 +76,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Cat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OnJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.onJava.Extends.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.onJava.Extends" />
+      <option name="MAIN_CLASS_NAME" value="com.onJava.Extends.Cat" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -81,6 +106,22 @@
       <option name="PACKAGE_NAME" value="com.onJava.Extends" />
       <option name="MAIN_CLASS_NAME" value="com.onJava.Extends.Cat" />
       <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Utils.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OnJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.onJava.Interfae.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.onJava.Interfae" />
+      <option name="MAIN_CLASS_NAME" value="com.onJava.Interfae.Utils" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,6 +145,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Utils.test" />
+        <item itemvalue="JUnit.Cat" />
         <item itemvalue="JUnit.Cat.test1" />
         <item itemvalue="JUnit.test.test1" />
         <item itemvalue="Application.test" />
@@ -119,7 +162,8 @@
       <option name="presentableId" value="Default" />
       <updated>1722429334623</updated>
       <workItem from="1722429335961" duration="5000" />
-      <workItem from="1722429357513" duration="3724000" />
+      <workItem from="1722429357513" duration="4622000" />
+      <workItem from="1722473917375" duration="2343000" />
     </task>
     <servers />
   </component>
